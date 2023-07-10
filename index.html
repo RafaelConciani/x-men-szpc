@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    
+
+<link rel="stylesheet" href="./src/CSS/reset.css">
+<link rel="stylesheet" href="./src/CSS/estilos.css">
+<link rel="stylesheet" href="./src/CSS/responsivo.css">
+
+</head>
+<body>
+   <header class="cabecalho">
+   <img src="./src/imagens/logo.svg" alt="Logo X-men"> 
+   </header>
+   
+   <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="ciclope" data-description="Scott Summers também conhecido como Ciclope, tem o poder de disparar rajadas ópticas destruidoras por causa de um acidente que aconteceu com ele quando criança, porém sem os óculos, não consegue controlá-las.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem ciclope.">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="jean grey" data-description="Jean Grey é uma mutante nível Ômega. Desde seu nascimento, ela é uma poderosa telepata, telecinética e psiônica, estando entre as mais fortes mutantes do universo Marvel. Ela também é o avatar da Força Fênix, no qual manifesta poderes cósmicos.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="lince negra" data-description="Uma mutante, Pryde possui uma habilidade faseada que lhe permite, assim como objetos ou pessoas com quem ela está em contato, tornar-se intangível. Esse poder também perturba qualquer campo elétrico que ela passa, e permite que ela possa andar no ar.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+                <li class="personagem" id="magneto" data-name="magneto" data-description="Magneto é o mutante Erik Magnus Lehnsherr, com a capacidade de controle e manipulação de campos magnéticos bem como qualquer tipo de metal. Nascido em uma família judaica, foi perseguido e feito prisioneiro em Auschwitz na II Guerra Mundial.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem Magneto.">
+                </li>
+                <li class="personagem" id="noturno" data-name="noturno" data-description="Seus poderes mutantes incluem teletransporte, super agilidade, aderência física, visão noturna, habilidades acrobáticas e a habilidade de fundir-se com as sombras. Noturno é um mutante com a habilidade para teleportar a si mesmo, roupas usadas e uma certa quantia de massa adicional com qual entra em contato.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem Noturno.">
+                </li>
+                <li class="personagem" id="tempestade" data-name="tempestade" data-description="Ela é capaz de manipular o tempo, e alterar o clima, assim tendo influência sobre os elementos da natureza. Pode alterar a pressão atmosférica a Temperatura e Umidade. É capaz de controlar os elementos climáticos, criar chuvas, tempestades, trovões, relâmpagos, raios, tornados, neve, neblina, etc.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem tempestade.">
+                </li>
+                <li class="personagem" id="vampira" data-name="vampira" data-description="Poderes e habilidades. Através do contato físico, Vampira absorve a energia vital, as memórias, pensamentos, habilidades físicas, mentais, normais ou especiais que a vítima possui, além dos seus super-poderes, sejam mutantes ou não. Normalmente, isso ocasiona perda de consciência, porque absorve a energia vital.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem Vampira.">
+                </li>
+                <li class="personagem" id="wolverine" data-name="wolverine" data-description="Além de suas mortais garras de adamantium, capazes de cortar qualquer coisa, ele tem um poderoso fato de cura; envelhece lentamente – o que o torna praticamente imortal -; e tem diversas características animais, como sentidos muito aguçados.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine.">
+                </li>        
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Scott Summers também conhecido como Ciclope, tem o poder de disparar rajadas ópticas destruidoras por causa de um acidente que aconteceu com ele quando criança, porém sem os óculos, não consegue controlá-las.</p>
+            </div>
+        </section>
+   </main>
+   <script src="./src/JS/index.js"></script>
+</body>
+</html>
